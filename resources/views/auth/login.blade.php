@@ -146,14 +146,14 @@
                             <div class="form-group py-2">
                                 <div class="input-field">
                                     <span class="far fa-user p-2"></span>
-                                    <input type="text" name="email" placeholder="Username or Email" required
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" placeholder="Username or Email" required
                                         :value="old('email')" />
                                 </div>
                             </div>
                             <div class="form-group py-1 pb-2">
                                 <div class="input-field">
                                     <span class="fas fa-lock px-2"></span>
-                                    <input type="password" name="password" placeholder="Enter your Password" required />
+                                    <input type="password" class="form-control @error('password') is-invalid @enderror" name="password" placeholder="Enter your Password" required />
                                 </div>
                     </form>
                 </div>

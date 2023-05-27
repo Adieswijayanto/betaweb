@@ -1,10 +1,10 @@
     <section class="slider-active">
-    <div class="single-slider d-flex align-items-center bg_cover" style="background-image: url(assets/images/bgwyg.jpg);">
+    <div class="single-slider d-flex align-items-center bg_cover" style="background-image: url(assets/images/lending.jpg);">
         <div class="container">
             <div class="slider-content">
                 <h2 class="title" data-animation="fadeInLeft" data-delay="0.2s">Memayu Hayu Ning Bhuwana Memayu Hayu Ning Budaya</h2>
                 <br>
-                <h6 style="color: rgb(211, 211, 211)" data-animation="fadeInLeft" data-delay="0.1s">Ingin Daftar Mitra Sanggar? Ingin Daftar Calon Siswa Sanggar? Mari Bergabung bersama kami Batari!</h6>
+                <h6 style="color: rgb(252, 252, 252)" data-animation="fadeInLeft" data-delay="0.1s">Ingin Daftar Mitra Sanggar? Ingin Daftar Calon Siswa Sanggar? Mari Bergabung bersama kami Batari!</h6>
                 <ul class="slider-btn">
                     <li><a data-animation="fadeInUp" data-delay="0.6s" class="main-btn main-btn-2-primary" href="/partnership">lihat Sanggar?</a></li>
                     <li><a data-animation="fadeInUp" data-delay="1s" class="main-btn" href="/termofservices">Cara daftar?</a></li>

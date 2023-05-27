@@ -1,4 +1,4 @@
-<section class="footer bg_cover" style="background-image: url(assets/images/bgwyg.jpg);">
+<section class="footer bg_cover" style="background-image: url(assets/images/fuuter.jpg);">
     <div class="footer-widget">
         <div class="container">
             <div class="row">
@@ -6,8 +6,7 @@
                     <div class="footer-link mt-45">
                         <h4 class="footer-title">Our Company</h4>
                         <ul class="link-list">
-                            <li><a href="about-us.html">About</a></li>
-                            <li><a href="/termofservices">FaQ</a></li>
+                            <li><a href="/about">About</a></li>
                         </ul>
                     </div>
                 </div>
@@ -24,7 +23,7 @@
                     <div class="footer-link mt-45">
                         <h4 class="footer-title">Partnership</h4>
                         <ul class="link-list">
-                            <li><a href="our-courses-left-sidebar.html">Mitra Sanggar</a></li>
+                            <li><a href="/partnership">Mitra Sanggar</a></li>
                         </ul>
                     </div>
                 </div>

@@ -23,12 +23,25 @@
                             <li>
                                 <a href="#">Register</a>
                                 <ul class="nav-dropdown nav-submenu">
-                                    <li><a href="/login">Daftar mitra sanggar</a></li>
+                                    <li><a href="/daftarmitra">Daftar mitra sanggar</a></li>
                                     <li><a href="/login">Daftar siswa sanggar</a></li>
                                 </ul>
                         </li>
                         <li>
+                            @guest
                             <a href="{{route('login')}}">Login</a>
+                            @endguest
+                            @auth
+                            <a href="#">{{ auth()->user()->name }}</a>
+                            <ul class="nav-dropdown nav-submenu">
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+                                <li><a href="{{ route('logout') }}"onclick="event.preventDefault();
+                                    this.closest('form').submit();">Logout</a>
+                                </li>
+                                </form>
+                            </ul>
+                            @endauth
                         </li>
                     </ul>
                 </nav>
